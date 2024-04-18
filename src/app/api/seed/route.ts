@@ -19,7 +19,6 @@ export async function GET(request: Request) {
       description: "Piedra del alma",
     },
   });
-  console.log("🚀 ~ GET ~ todo:", todo);
 
   return NextResponse.json({ message: "Seed Executed" });
 }
